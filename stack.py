@@ -21,6 +21,9 @@ class Stack:
     
     def peek(self):
         return self.items[len(self.items)-1]
+    
+    def getElements(self):
+        return self.items
 
 
 s= Stack()
@@ -28,6 +31,7 @@ s.push("True")
 s.push(2)
 s.push(88)
 s.push("yes")
+print(s.getElements)
 s.pop()
 s.pop()
 s.push("narang")
@@ -35,7 +39,7 @@ s.push("narang")
 print (s.peek())
 print (s.sizeofstack())
 print (s.isEmpty())
-
+print(s.getElements())
 
 
 
