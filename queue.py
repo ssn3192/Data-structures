@@ -14,6 +14,9 @@ class Queue:
         
     def dequeue(self):
         return self.items.pop()
+    
+    def getElements(self):
+        return self.items
 
 
 q= Queue()
@@ -28,3 +31,4 @@ print (q.isEmpty())
 q.dequeue()
 q.dequeue()
 print(q.isEmpty())            
+print(q.getElements())
