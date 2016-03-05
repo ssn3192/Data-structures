@@ -14,7 +14,7 @@ class Stack:
     
     def pop(self):
         if len(self.items)== 0:
-            print("Stack is Empty")
+            print("Stack is Empty and results Underflow")
             return None
         else:
             return self.items.pop()
