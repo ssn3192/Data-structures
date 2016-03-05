@@ -20,6 +20,9 @@ class Deque:
     def removeFront(self):
         return self.items.pop(0)
     
+    def getElements(self):
+        return self.items
+    
     
 dq = Deque()
 dq.addRear(12)
@@ -33,7 +36,7 @@ dq.addRear("true")
 dq.removeRear()
 print(dq.isEmpty())
 print(dq.size())
-
+print(dq.getElements())
 
 
     
