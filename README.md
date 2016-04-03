@@ -1,1 +1,1 @@
-# Data-structures implemented using Python
+# Data structure implementation using Java
